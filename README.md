@@ -22,7 +22,7 @@
 - [How to use?](#how-to-use?)
   - [Obtain the JsonSerializerAdapter object](#obtain-json-serializer-adapter-object)
   - [About the JsonSerializerAdapter methods](#json-serializer-adapter-interface)
-  - [json-serializer-adapter-with-reactive-local-storage](#How to use @cljimenez/json-serializer-vue-localstorage-reactive with @cljimenez/vue-localstorage-reactive)
+  - [How to use @cljimenez/json-serializer-vue-localstorage-reactive with @cljimenez/vue-localstorage-reactive](#json-serializer-adapter-with-reactive-local-storage)
 - [Author](#author)
 - [Contributing](#contributing)
 - [License](#license)
