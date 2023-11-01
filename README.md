@@ -45,23 +45,22 @@
   import { createJsonSerializerAdapter } from '@cljimenez/json-serializer-vue-localstorage-reactive'
 
   // If you want to use the function serializer.
-  const JsonSerializerAdapterWithFunctionSerializer = createJsonSerializerAdapter({ includeFunctionSerializer: true })
+  const JsonSerializerAdapterWithFunctionSerializer =
+    createJsonSerializerAdapter({ includeFunctionSerializer: true })
 
   // If you do not want to use the function serializer
-  const JsonSerializerAdapterWithoutFunctionSerializer = createJsonSerializerAdapter()
+  const JsonSerializerAdapterWithoutFunctionSerializer =
+    createJsonSerializerAdapter()
   ```
+
 - ### <a id="json-serializer-adapter-interface"></a> About the JsonSerializerAdapter methods
 
   The JsonSerializerAdapter object provides the following methods:
 
   - `(method)` getSerializers(void): Returns an object that contains the serializers added to JsonSerializer object. The keys are obtained from serializer.getSerializerType method and the values are the Serializer objects.
-    
   - `(method)` installSerializersAndRefreshJsonSerializer(serializersInstaller: SerializerInstaller, installOptions = {}): Adds serializers through the serializersInstaller and to update the JsonSerializer object.
-    
   - `(method)` addSerializerAndRefreshJsonSerializer(serializer): Adds a Serializer and to update the JsonSerializer object.
-    
   - `(method)` serialize(value, options = {}): Serializes the data. The optional options parameter contains some configuration used by the serialize algorithm.
-    
   - `(method)` parse(value, options = {}): Unserializes the data serialized by serialize method. The optional options parameter contains some configuration used by the parse algorithm.
 
 - ### <a id="json-serializer-adapter-with-reactive-local-storage"></a> How to use @cljimenez/json-serializer-vue-localstorage-reactive with @cljimenez/vue-localstorage-reactive
@@ -122,7 +121,7 @@
 
 👤 **Cristopher Jiménez**
 
-* Github: [@cristopher1](https://github.com/cristopher1)
+- Github: [@cristopher1](https://github.com/cristopher1)
 
 ## <a id="contributing"></a> 🤝 Contributing
 
@@ -133,5 +132,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 Copyright © 2023 [Cristopher Jiménez](https://github.com/cristopher1).<br />
 This project is [MIT](https://github.com/cristopher1/json-serializer-vue-localstorage-reactive/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
