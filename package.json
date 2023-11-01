@@ -48,7 +48,12 @@
     "json-serializer",
     "json-serializer-core",
     "json-serializer-base-serializers",
-    "vue-localstorage-reactive"
+    "vue-localstorage-reactive",
+    "local",
+    "storage",
+    "serialize",
+    "unserialize",
+    "serializer"
   ],
   "author": "Cristopher Jiménez",
   "license": "MIT",
