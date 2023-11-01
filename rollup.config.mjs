@@ -31,7 +31,7 @@ const DTS_FILE = {
 }
 
 // input files
-const INPUT_SRC_FILE = 'src/main.js'
+const INPUT_SRC_FILE = 'src/index.js'
 const INPUT_DTS_FILE = 'dist/tmp/types/index.d.ts'
 
 // transpiled files
