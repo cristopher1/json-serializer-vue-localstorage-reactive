@@ -79,7 +79,7 @@ export class JsonSerializerAdapter {
   }
 
   /**
-   * Unserializes the data,
+   * Unserializes the data serialized by serialize method.
    *
    * @param {string} value The data to unserialize.
    * @param {object} options The parse options used by the jsonSerializer.parse
